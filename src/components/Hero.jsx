@@ -2,7 +2,7 @@ const Hero = () => {
     return (
         <section className="relative w-full h-screen flex items-center justify-between">
 
-            <div className="absolute left-5">
+            <div className="absolute left-20">
 
                 <div className="flex items-center gap-2 bg-indigo-400/20 text-indigo-400 py-2 px-2 border border-indigo-400/40 w-[270px] rounded-full shadow-[0_0_5px_rgba(0,0,0,0.25)]">
                     <box-icon type="logo" color="#727fde" name="sketch"></box-icon>
@@ -36,7 +36,16 @@ const Hero = () => {
 
             </div>
 
-
+            <div className="absolute right-20">
+                <video
+                    loop
+                    autoPlay
+                    muted
+                    playsInline
+                    className="h-[900px] mix-blend-difference"
+                    src="/hero-video.mp4"
+                />
+            </div>
 
         </section>
     );

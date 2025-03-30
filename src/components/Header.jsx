@@ -5,7 +5,7 @@ const Header = () => {
             <div className="flex items-center gap-2">
                 {/* <img src="images/miladicode.png" alt="logo" /> */}
                 <div className="size-12 rounded-full bg-slate-700"></div>
-                <h1>MiladiCode</h1>
+                <h1>Taiseen</h1>
             </div>
 
             <nav className="flex items-center justify-between w-[30%] py-4 px-16 rounded-full bg-slate-700/20 backdrop-blur-md shadow-lg shadow-white/10">
