@@ -47,6 +47,20 @@ const Hero = () => {
                 />
             </div>
 
+            <div
+                className="border-2 border-slate-600 rounded-full cursor-pointer shadow-md
+                 absolute left-[49%] bottom-[8%] w-9 h-16 flex items-center justify-center 
+                 before:content-[''] before:absolute before:border-2 before:border-slate-400 
+                 before:w-2.5 before:h-2.5 before:border-t-transparent before:border-l-transparent 
+                 before:transform before:left-1/2 before:-translate-x-1/2 before:translate-y-[-100%] 
+                 before:rotate-45 before:top-[20%] before:animate-topDown 
+                 after:content-[''] after:absolute after:border-2 after:border-slate-400 
+                 after:w-2.5 after:h-2.5 after:border-t-transparent after:border-l-transparent 
+                 after:transform after:left-1/2 after:-translate-x-1/2 after:translate-y-[-50%] 
+                 after:rotate-45 after:top-[30%] after:animate-topDown after:delay-500"
+            >
+            </div>
+
         </section>
     );
 };

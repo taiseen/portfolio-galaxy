@@ -7,7 +7,7 @@ const BgVideo = () => {
                 autoPlay
                 muted
                 playsInline
-                className="bgVideo fixed right-0 bottom-0 min-w-full min-h-full w-auto h-auto object-cover -z-10 mix-blend-overlay"
+                className="bgVideo fixed right-0 bottom-0 min-w-full min-h-full w-auto h-auto object-cover -z-10 mix-blend-lighten"
                 src="/galaxy.mp4"
             />
         </div>
