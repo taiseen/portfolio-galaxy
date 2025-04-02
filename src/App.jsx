@@ -2,6 +2,7 @@ import BlackHole from "./components/BlackHole";
 import BgVideo from "./components/BgVideo";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Info from "./components/Info";
 import 'boxicons';
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
       <Header />
       <BlackHole />
       <Hero />
+      <Info />
     </div>
   );
 };

@@ -42,7 +42,7 @@ const Hero = () => {
                     autoPlay
                     muted
                     playsInline
-                    className="h-[900px] mix-blend-difference"
+                    className="h-[900px] mix-blend-lighten"
                     src="/hero-video.mp4"
                 />
             </div>

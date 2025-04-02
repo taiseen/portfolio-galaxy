@@ -1,6 +1,6 @@
 const BlackHole = () => {
     return (
-        <div className="absolute top-0 w-full flex justify-center mix-blend-lighten">
+        <div className="absolute top-0 w-full flex justify-center mix-blend-lighten -z-10">
             <video
                 loop
                 muted
